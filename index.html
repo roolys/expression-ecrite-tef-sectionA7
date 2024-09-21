@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entraînement à l'expression écrite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ENTRAINEMENT EXPRESSION ECRITE TEF Canada</h1>
+    <h4>SECTION A</h4>
+    <h4>Type de document : Le début d'un article de presse (rubrique faits-divers)</h4>
+    <h5>Objectif : 
+      <p>
+      Terminez cet article : 
+      </p>
+      <p>
+        - En ajoutant à la suite un texte de 80 mots minimum
+      </p>
+   <p>
+    - En faisant plusieurs paragraphes.
+   </p>
+    
+  </h5> 
+    <h6> </h6>
+    <h6> </h6>
+    <p></p>
+  <div class="container">
+    <div class="text-area">
+      <h2>SECTION A  : Des vacances plus compliquées que prévu 
+        <br>
+        Un couple de retraités de 68 ans est allé à la plage de Cagnes-sur-Mer ce mercredi. Après avoir garé leur voiture sur la plage, ils étaient partis se promener. Cependant, à leur retour, la mer était montée et leur véhicule s'était retrouvé dans l'eau pendant plusieurs heures. 
+     </h2>
+      <p>
+        
+      </p>
+      <textarea id="textarea1"></textarea>
+      <p class="word-count" id="wordCount1">Nombre de mots : 0</p>
+    </div>
+   
+    <div class="download">
+      <!-- <button id="keyboardButton">Ouvrir le clavier</button> -->
+      <button id="downloadButton" onclick="downloadContent()">Télécharger</button>
+    </div>
+    <div class="timer">
+      <p id="timer">Temps restant : 25:00</p>
+    </div>
+
+    <div class="virtual-keyboard">
+      <!-- Insérez le clavier visuel ici -->
+      <div id="keyboard">
+        <div class="key" onclick="insertCharacter('é')">é</div>
+        <div class="key" onclick="insertCharacter('è')">è</div>
+        <div class="key" onclick="insertCharacter('ê')">ê</div>
+        <div class="key" onclick="insertCharacter('ë')">ë</div>
+        <div class="key" onclick="insertCharacter('à')">à</div>
+        <div class="key" onclick="insertCharacter('â')">â</div>
+        <div class="key" onclick="insertCharacter('ä')">ä</div>
+        <div class="key" onclick="insertCharacter('î')">î</div>
+        <div class="key" onclick="insertCharacter('ï')">ï</div>
+        <div class="key" onclick="insertCharacter('ô')">ô</div>
+        <div class="key" onclick="insertCharacter('œ')">œ</div>
+        <div class="key" onclick="insertCharacter('ù')">ù</div>
+        <div class="key" onclick="insertCharacter('û')">û</div>
+        <div class="key" onclick="insertCharacter('ü')">ü</div>
+      </div>
+
+      <!-- <textarea id="textarea"></textarea> -->
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
